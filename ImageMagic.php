@@ -4,7 +4,7 @@
  * @author: Abhimanyu Sharma <abhimanyusharma003@gmail.com>
  *
  */
-namespace abhimanyusharma003\Image;
+namespace Abhimanyusharma003;
 
 class Image
 {
