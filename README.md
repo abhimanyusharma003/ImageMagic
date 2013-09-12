@@ -1,5 +1,5 @@
 Image Magic class
-=====================
+=================
 
 Image Magic is based on PHP:Imagick library. The main use of this library to provide caching and easy image manipulation. 
 
@@ -12,7 +12,7 @@ Using methods chaining, you can open, transform and save a file in a single line
 <?php
 require_once('ImageMagic.php');
   
-use abhimanyusharma003\Image\Image;
+use Abhimanyusharma003\Image;
     
 Image::open('in.png')
     ->resizeImage(100, 100)
@@ -38,7 +38,7 @@ You save the image with `save($imageName,$format,$qualit)` method.
 
 ```php
 <?php
-use abhimanyusharma003\Image\Image;
+use Abhimanyusharma003\Image;
 
 Image::open('in.png')->save('out.jpg','jpg',100);
 ```
